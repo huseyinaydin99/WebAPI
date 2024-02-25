@@ -12,7 +12,7 @@ namespace Business.Abstracts;
 public interface IBrandService
 {
     CreatedBrandResponse Add(CreateBrandRequest brand);
-    List<Brand> GetAll();
+    List<GetAllBrandResponse> GetAll();
 }
 //responses and requests
 //yanıtlar için ayrı dto, request için ayrı dto kullanılmalı ikisi içinde aynı dto kullanımı sektörde yaygın bir hatadır.!

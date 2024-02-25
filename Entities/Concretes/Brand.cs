@@ -15,4 +15,8 @@ public class Brand : BaseEntity<int>
     {
         Name = name;
     }
+
+    public Brand()
+    {
+    }
 }
